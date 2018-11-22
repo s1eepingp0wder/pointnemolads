@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <!-- Add Favicon later -->
+  <link href="../style.css" rel="stylesheet" type="text/css">
+  <title>About Jamiebot</title>
+  <script>
+    /* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(e) {
+      if (!e.target.matches('.dropbtn')) {
+        var myDropdown = document.getElementById("myDropdown");
+        if (myDropdown.classList.contains('show')) {
+          myDropdown.classList.remove('show');
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <nav>
+    <div class="navwrapper">
+      <div class="navbar">
+        <a href="index.html">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn" onclick="myFunction()">Bots
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="bots/Cyborg-2D.html">Cyborg2D</a>
+            <a href="bots/damonbot.html">Damonbot</a>
+            <a href="bots/jamiebot.html">Jamiebot</a>
+          </div>
+        </div>
+        <a href=" https://discord.gg/VPjB4aP">Home Discord</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="wrapper">
+      <article>
+        <p>Lorem Ipsum dolor sit amet.</p>
+      </article>
+    </div>
+  </main>
+
+  <footer>
+    <div class="bottomwrapper">
+    <p>Owned by Dentz. These bots are not open-source.</p>
+  </div>
+  </footer>
+</body>
+
+</html>

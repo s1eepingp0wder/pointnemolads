@@ -1,0 +1,109 @@
+html{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  background: #193159;
+}
+.navwrapper{
+  background: #3762a8;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-style: italic;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #3762a8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: cyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0 90px;
+    border-bottom: 2px transparent solid;
+    border-top: 2px transparent solid;
+    transition: border-bottom 0.5s, border-top 0.5s;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: cyan;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+    border-bottom: 2px transparent solid;
+    border-top: 2px transparent solid;
+    transition: border-bottom 0.5s, border-top 0.5s;
+    font-style: italic;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: #193d77;
+    border-bottom: 2px white solid;
+    border-top: 2px white solid;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #3762a8;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: cyan;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.show {
+    display: block;
+}
+.bottomwrapper{
+  background: #3762a8;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bottomwrapper p{
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0 90px;
+}
+.wrapper{
+  position: relative;
+  top: 4vh;
+  left: 15vw;
+  width: 70vw;
+  max-width: 75vw;
+  height: 91vh;
+  background: #66bfff;
+  z-index: -1;
+}
+.wrapper article{
+  /* background: rgb(0,0,0,0.2); */
+  width: 75%;
+  margin: 0 auto;
+  padding: 30px;
+}
